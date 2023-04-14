@@ -1,0 +1,22 @@
+/* This code has been minified, so you can see all the elements at once. if you want, you can expand it */
+.mock-browser{ height:100px; }
+.mock-browser .chrome-tabs{ border-radius:0 }
+.mock-browser-content{ height:100%;padding:1em .5em }
+.surface{ box-sizing:border-box;display:flex;flex-direction:column;height:100%;justify-content:center;margin:0;min-height:100%;padding-bottom:3em;padding-top:0;width:100% }
+button{ background:#fff;border:1px solid rgba(139,141,157,.4);border-radius:9999px;cursor:pointer;display:inline-block;font-family:inherit;font-size:12px;padding:.6em 1.5em .7em }
+html{ background:#f1f3f4;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" }
+html,body{ height:100%;margin:0;padding:0 }
+html.dark-theme{ background:#1c1c1c;background:#252729 }
+@supports (-webkit-overflow-scrolling: touch) { 
+button{ touch-action:manipulation }
+ }
+.buttons{ float:right;margin-right:-.5em;text-align:right }
+.url-input{ background-color:#00000000;border:#eee;color:#222;float:right;height:2em;outline:none;width:calc(100% - 34px); }
+.url-input-bar{ background-color:#eee;border-color:#888;border-radius:9999px;color:#888;display:inline-block; margin-left:1em;padding:.2em;width:50%; height: 30px; }
+.url-input-bar button{ font-size:15px;height:30px;padding:0; width:30px }
+button:focus{ border-color:#a9adb0;box-shadow:0 0 0 3px #dee1e6;outline:none }
+html.dark-theme .url-input{ color:#eee }
+html.dark-theme .url-input-bar{ -webkit-font-smoothing:antialiased;background:#333;border-color:#4a4d51;color:#fff }
+html.dark-theme button{ -webkit-font-smoothing:antialiased;background:transparent;border-color:#4a4d51;color:#fff }
+html.dark-theme button:focus{ border-color:#858b90;box-shadow:0 0 0 3px #4a4d51 }
+html.dark-theme svg{ fill:#fff }
